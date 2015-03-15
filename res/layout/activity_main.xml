@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:id="@+id/mn">
+
+   <LinearLayout 
+    android:id="@+id/main"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    
+</LinearLayout>
+<LinearLayout 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:id="@+id/rg">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/undo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:text="U" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="R" 
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/image1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customhelp" />
+</LinearLayout>
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/l2"
+    >
+    
+</LinearLayout>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_marginLeft="94dp"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/l3"
+    >
+    
+</LinearLayout>
+
+
+
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#990033"
+        android:text="REMAINING MARBLES :  "/>
+    <TextView
+        android:id="@+id/score"
+        android:textSize="35sp"
+        android:textColor="#660066"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+        
+        
+    
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    >
+<TextView 
+    android:id="@+id/over"
+        android:textSize="50sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FF3399"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</LinearLayout>
